@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+
+        int a = 10;
+        int b = 10;
+        int soma = a + b;
+        int sub = a - b;
+        int mult = a * b;
+        int div = a/b;
+
+        System.out.println("O resultado da soma é: " +soma);
+        System.out.println("O resultado da subtração é: " +sub);
+        System.out.println("O resultado da multiplicação é: " +mult);
+        System.out.println("O resultado da divisão é: " +div);
+
+
+    }
+    }

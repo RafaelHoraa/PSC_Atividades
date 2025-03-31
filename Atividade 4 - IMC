@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+
+        double a = 80;
+        double b = 180;
+        double imc = a/(b*b);
+
+        System.out.println("O IMC é: " +imc);
+
+      }
+    }

@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        String texto = "Java é incrível";
+        int contador = 0;
+
+        for (char c : texto.toLowerCase().toCharArray()) {
+            if ("aeiou".indexOf(c) != -1) {
+                contador++;
+            }
+        }
+
+        System.out.println("O número de vogais é: " + contador);
+    }
+}

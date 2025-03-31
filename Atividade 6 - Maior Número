@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        int num1 = 8;
+        int num2 = 15;
+        int num3 = 12;
+
+        int maior = Math.max(num1, Math.max(num2, num3));
+
+        System.out.println("O maior número é: " + maior);
+    }
+}
