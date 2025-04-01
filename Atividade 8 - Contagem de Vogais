@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        String texto = "Java é incrível";
+        String texto = "Java é legal";
         int contador = 0;
 
         for (char c : texto.toLowerCase().toCharArray()) {
