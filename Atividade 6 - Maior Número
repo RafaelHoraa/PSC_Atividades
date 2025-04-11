@@ -1,11 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        int num1 = 8;
-        int num2 = 15;
-        int num3 = 12;
+        int num1 = 82;
+        int num2 = 16;
+        int num3 = 18;
 
-        int maior = Math.max(num1, Math.max(num2, num3));
-
-        System.out.println("O maior número é: " + maior);
+        if (num1 > num2 && num1>num3) {
+            System.out.println("Numero " +num1 + " é o maior.");
+        }
+        else if (num2>num1 && num2 >num3) {
+            System.out.println("Numero " +num2 + " é o maior.");
+        }
+        else System.out.println("Numero "+num3+" é o maior.");
+        
     }
 }
