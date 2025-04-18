@@ -1,0 +1,29 @@
+//"Classe Main"
+public class Main {
+    public static void main(String[] args) {
+
+        Carro meuCarro = new Carro("Chevrolet", "Tracker", 2023);
+
+        meuCarro.exibirInformacoes();
+    }
+}
+
+//"Classe Livro"
+public class Carro {
+
+    String marca;
+    String modelo;
+    int ano;
+
+
+    public Carro(String marca, String modelo, int ano) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+    }
+
+
+    public void exibirInformacoes() {
+        System.out.println("Marca: " + marca+"\nModelo: " + modelo+"\nAno: " + ano);
+    }
+}
