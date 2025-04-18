@@ -15,7 +15,6 @@ public class Cachorro {
     String raca;
     int idade;
 
-
     public Cachorro(String nome, String raca, int idade) {
         this.nome = nome;
         this.raca = raca;
