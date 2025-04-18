@@ -13,17 +13,17 @@ public class Livro {
 
     String titulo;
     String autor;
-    int paginas;
+    int numPaginas;
 
 
     public Livro(String titulo, String autor, int paginas) {
         this.titulo = titulo;
         this.autor = autor;
-        this.paginas = paginas;
+        this.numPaginas = paginas;
     }
 
 
     public void exibirInformacoes() {
-        System.out.println("Titulo: " + titulo+"\nAutor: " + autor+"\nPaginas: " + paginas);
+        System.out.println("Titulo: " + titulo+"\nAutor: " + autor+"\nPaginas: " + numPaginas);
     }
 }
