@@ -15,13 +15,11 @@ public class Livro {
     String autor;
     int numPaginas;
 
-
     public Livro(String titulo, String autor, int paginas) {
         this.titulo = titulo;
         this.autor = autor;
         this.numPaginas = paginas;
     }
-
 
     public void exibirInformacoes() {
         System.out.println("Titulo: " + titulo+"\nAutor: " + autor+"\nPaginas: " + numPaginas);
