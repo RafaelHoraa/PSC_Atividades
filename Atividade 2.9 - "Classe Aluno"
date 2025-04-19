@@ -1,0 +1,26 @@
+//"Classe Main"
+public class Main {
+    public static void main(String[] args) {
+
+        Aluno meuLivro = new Aluno("Rafael", "13525118150");
+
+        meuLivro.exibirInformacoes();
+    }
+}
+
+//"Classe Aluno"
+public class Aluno {
+
+    String nome;
+    String matricula;
+
+
+    public Aluno(String nome, String matricula) {
+        this.nome = nome;
+        this.matricula = matricula;
+    }
+
+    public void exibirInformacoes() {
+        System.out.println("Nome: " + nome+"\nMatricula: " + matricula);
+    }
+}
