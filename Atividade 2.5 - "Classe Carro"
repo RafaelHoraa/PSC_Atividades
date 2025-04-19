@@ -8,7 +8,7 @@ public class Main {
     }
 }
 
-//"Classe Livro"
+//"Classe Carro"
 public class Carro {
 
     String marca;
