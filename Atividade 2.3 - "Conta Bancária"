@@ -1,7 +1,7 @@
 // "Classe main"
-public class main {
+public class Main {
     public static void main(String[] args) {
-        ContaBancaria conta = new ContaBancaria("12345");
+        ContaBancaria conta = new ContaBancaria("4000");
         
         conta.depositar(500.0);
         conta.sacar(200.0);
