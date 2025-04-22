@@ -1,0 +1,37 @@
+// "Classe main"
+public class main {
+    public static void main(String[] args) {
+        ContaBancaria conta = new ContaBancaria("12345");
+        
+        conta.depositar(500.0);
+        conta.sacar(200.0);
+        conta.exibirSaldo();
+    }
+}
+
+// "Classe ContaBancaria"
+class ContaBancaria {
+    String numeroConta;
+    double saldo;
+
+    public ContaBancaria(String numeroConta) {
+        this.numeroConta = numeroConta;
+        this.saldo = 0.0;
+    }
+
+    public void depositar(double valor) {
+        this.saldo += valor;
+    }
+
+    public void sacar(double valor) {
+        if (valor <= saldo) {
+            this.saldo -= valor;
+        } else {
+            System.out.println("Saldo insuficiente.");
+        }
+    }
+
+    public void exibirSaldo() {
+        System.out.println("Conta: " + numeroConta + "\nSaldo: R$ " + saldo);
+    }
+}
